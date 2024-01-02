@@ -1,0 +1,63 @@
+.container{
+    background: linear-gradient(rgb(73, 182, 209),rgb(183, 183, 218));
+    width: 450px;
+    margin: 150px auto;
+    border-radius: 10px;
+    padding: 10px ;
+    color: #321deb;
+}
+.header{
+    margin-top: 10px;
+    font-size: 20px; 
+    font-weight: 700;
+    text-align: center;
+}
+.add-task{
+    background: linear-gradient(rgb(73, 182, 209),rgb(183, 183, 218));
+    padding: 0.5rem;
+    border-radius: 1em;
+    border: 2px solid blue;
+    margin-top: 30px;
+    display: flex;
+}
+.input{
+    font-size: 1.5em;
+    color: #774d27;
+    background-color: rgb(224, 215, 215);
+    border: 1px;
+    border-radius: 1em;
+    padding: .5em;
+    margin: 1em;
+    width: 95%;
+}
+.add-btn{
+    border-radius: 19px;
+    font-size: 1.5em;
+    margin: 1em;
+    padding: 0px 15px;
+    border: none;
+    cursor: pointer;
+    color: #cab9b9;
+    background-color: #321deb;
+    width: 100px;
+}
+.list-task{
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    color: #514c9c;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.delete-btn{
+    border-radius: 5px;
+    margin: 0px 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #f30909;
+    float: right;
+}
